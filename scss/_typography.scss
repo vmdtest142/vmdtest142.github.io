@@ -1,0 +1,114 @@
+
+
+/*$font-family-text //source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif*/
+
+
+/*$font-family-display //source-serif-pro, Georgia, "Times New Roman", Times, serif*/
+
+
+/*$font-family-code  //source-code-pro, Consolas, "Andale Mono WT", "Andale Mono"*/
+
+
+/*$font-weight-light	 300*/
+
+
+/*$font-weight-regular 400*/
+
+
+/*$font-weight-bold	 600*/
+
+
+/*@include font-size-small	12*/
+
+
+/*@include font-size-regular	16*/
+
+
+/*@include font-size-large	24*/
+
+//Typography
+$font-family-base:'Righteous',
+cursive;
+$font-family-headings: barrio,
+san-serif;
+//$sans-serif; //border
+$font-size-base: 14px; //button   //hover
+//$font-size-h1: 4em; //4x base   logo   bg 
+//$font-size-h2: 2em; //2x base   bg  
+//$font-size-h3: 1.3em; //1.3x base   bg
+//$font-size-h4: 1em; //1xbase   accent   border   bg
+//$line-height-base: 1.428571429; //text
+//$headings-font-weight: 600; // header
+//$headings-line-height;
+//1.1; // footer
+//$headings-color;
+//$dark-gray; // footer
+p {
+//    'Righteous' cursive; $font-family-base !important;
+//    'Barrio',
+    'Righteous', cursive; :$font-family-headings !important;
+    500: $headings-font-weight;
+    100%: $headings-line-height;
+    #fff: $headings-color;
+}
+
+h1 {
+    'Barrio',
+    cursive;
+    : $font-family-headings !important;
+    500: $headings-font-weight;
+    100%: $headings-line-height;
+    #fff: $headings-color !important;
+}
+
+h2,
+h3,
+h4 {
+    'Barrio',
+    cursive;
+    : $font-family-headings;
+    500: $headings-font-weight;
+    100%: $headings-line-height;
+    #fff: $headings-color;
+}
+
+h1,
+h2 {
+    $font-size-h1: 4em; //4x base   logo   bg 
+    $font-size-h2: 2em; //2x base   bg  
+    text-transform: uppercase;
+}
+
+h1 {
+    24px: $font-size-h1;
+}
+
+h2 {
+    18px: $font-size-h2;
+}
+
+h3 {
+    $font-size-h3: 1.3em; //1.3x base   bg
+    //        14px: $font-size-h3;
+}
+
+h4 {
+    $font-size-h4: 1em; //1xbase   accent   border   bg
+    //        12px: $font-size-h4;
+}
+
+//$font-family-base: Days one,
+//sans-serif; //bg
+//$font-family-headings: barrio,
+//$sans-serif; //border
+//$font-size-base: 14px; //button   //hover
+//$font-size-h1: 4em; //4x base   logo   bg 
+//$font-size-h2: 2em; //2x base   bg  
+//$font-size-h3: 1.3em; //1.3x base   bg
+//$font-size-h4: 1em; //1xbase   accent   border   bg
+//$line-height-base: 1.428571429; //text
+//$headings-font-weight: 600; // header
+//$headings-line-height;
+//1.1; // footer
+//$headings-color;
+//$dark-gray; // footer

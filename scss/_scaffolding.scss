@@ -1,0 +1,25 @@
+
+#body-bg: $000; // <body> bg color
+$header-color:#fff; // white
+$text-color: #gray-dark; // <body> global text color
+$link-color: #b53ae3; // global textual link color
+link-hover-color: #fb6ala; //  yellow
+link-hover-decoration: none; //global link decoration
+body {
+    border-color: #000;
+    background-color: black;
+    color: #fff;
+    font-family: sansita;
+}
+
+.button {
+    color: #ef4043
+}
+
+.hover {
+    #653ae3
+}
+
+.button:hover {
+    #653ae3
+}
