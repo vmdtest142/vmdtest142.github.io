@@ -1,0 +1,326 @@
+body {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff; 
+}
+
+
+a {
+  color: #333333; }
+  a:hover, a:focus {
+    color: #25cbf5;
+    text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #333333; }
+
+
+.col-lg-12 {
+    color: #fff !important;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 4em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.3em; }
+
+h4 {
+  font-size: 1em; }
+
+.home-text {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 200; }
+
+.home-h1 {
+  color: #25cbf5;
+  font-size: 4.5em;
+  font-weight: 200;
+  margin-top: 40px;
+  font-size: 2.5em;
+  margin-bottom: 40px; }
+
+@media (min-width: 768px) {
+  .home-h1 {
+    font-size: 4.5em; } }
+
+.home-h1 > span {
+  color: #fff; }
+
+.lead {
+  letter-spacing: 1px;
+  margin-bottom: 60px; }
+
+.navbar-default {
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase; }
+
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.5em; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #333333; }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #25cbf5; }
+
+.btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in; }
+
+.btn-dark {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: #777777; }
+  .btn-dark:hover, .btn-dark:focus {
+    background: #000;
+    color: #fff; }
+
+.btn-cta {
+  background-color: #25cbf5;
+  color: #fff; }
+  .btn-cta:hover, .btn-cta:focus {
+    background-color: #0ab2dd;
+    color: #fff; }
+
+.btn-cta-o {
+  color: #fff;
+  border: 1px solid #fff; }
+  .btn-cta-o:hover, .btn-cta-o:focus {
+    background-color: #fff;
+    color: #353739; }
+
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #777777;
+  background: #fff;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in; }
+
+label {
+  font-weight: bold; }
+
+.form-control:focus {
+  background: #f5f4f2;
+  border-color: #777777; }
+
+#home {
+  background-color: #333333;
+  padding: 40px 0; }
+
+#cta-1 {
+  background-color: #f5f4f2;
+  padding: 40px 0; }
+
+#testimonials {
+  background-color: #333333; }
+
+#cta-2 {
+  background-color: #25cbf5;
+  padding: 40px 0; }
+
+#services {
+  background-color: #333333; }
+
+#cta-3 {
+  background-color: #333333;
+  padding: 40px 0; }
+
+#footer {
+  background-color: #333333;
+  color: #777777;
+  padding: 20px; }
+
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px; }
+
+.section-heading {
+  margin-bottom: 40px; }
+
+.color-reverse,
+.color-reverse h2,
+.color-reverse h3,
+.color-reverse .icon {
+  color: #fff; }
+
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+  border-bottom-color: #fff; }
+
+.icon {
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 1.42857;
+  width: 130px;
+  margin: 0 auto;
+  position: relative;
+  color: #25cbf5; }
+
+.icon:before,
+.icon:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #25cbf5;
+  position: absolute;
+  top: 10px;
+  width: 50px; }
+
+.icon:before {
+  left: 0; }
+
+.icon:after {
+  right: 0; }
+
+.icon-bg {
+  color: #fff; }
+
+.icon-bg:before,
+.icon-bg:after {
+  border-bottom-color: #fff; }
+
+.pullquote {
+  letter-spacing: 0px;
+  margin-bottom: 16px; }
+
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #777777;
+  border-radius: 50%;
+  background-color: #f5f4f2; }
+
+.services-col {
+  color: #25cbf5;
+  text-align: center; }
+
+@media (min-width: 768px) {
+  .services-col {
+    text-align: left; } }
+
+.services-col h3 {
+  color: #25cbf5;
+  margin-top: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1.75em; }
+
+.services-col p {
+  color: #777777;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 2; }
+
+.services-col .fa {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+  background-color: #25cbf5;
+  border-radius: 35px;
+  margin-bottom: 10px; }
+
+.contact-hours .fa {
+  color: #25cbf5; }
+
+.social-channels .fa {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #777777;
+  background-color: #f5f4f2;
+  margin-bottom: 10px; }
+
+#cta-1 .lead {
+  letter-spacing: 0;
+  font-style: normal; }
+
+.author {
+  color: #25cbf5;
+  font-size: 1.1em; }
+
+.item-img-wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden; }
+
+.item-img-wrap img {
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  transition: all 200ms linear; }
+
+.item-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
+
+.item-img-overlay span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/plus.png) no-repeat center center rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  -webkit-transition: opacity 250ms linear;
+  -moz-transition: opacity 250ms linear;
+  transition: opacity 250ms linear; }
+
+.item-img-wrap:hover .item-img-overlay span {
+  opacity: 1; }
+
+.item-img-wrap:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.about-col, .team-col, .services-col, .portfolio-col, .facts-col, .blog-col {
+  margin-bottom: 40px; }
+
+.blog-col span {
+  color: #777777;
+  font-size: .9em;
+  display: inline-block;
+  margin-bottom: 20px; }
